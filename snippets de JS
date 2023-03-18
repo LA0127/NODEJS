@@ -1,0 +1,70 @@
+{
+    	"Create Constant": {
+		"prefix": "vc",
+		"body": [
+			"const ${1:Nombre de la Variable} = ${2:Valor de la Variable}",
+			"$3"
+		],
+		"description": "Creates a new constant variable"
+	},
+	
+	"Arrow Function": {
+		"prefix": "flechita",
+		"body": [
+			"const ${1:Nombre de la funcion} = (${2:Parametros de la funcion}) => $3"
+		],
+		"description": "Creates a new arrow function"
+	},
+	"Create Boolean": {
+		"prefix": "letb",
+		"body": [
+			"let ${1:variableName} = ${2:true/false}",
+			"$3"
+		],
+		"description": "Creates a new boolean variable"
+	},
+	"Create Integer": {
+		"prefix": "leti",
+		"body": [
+			"let ${1:variableName} = ${2:0}",
+			"$3"
+		],
+		"description": "Creates a new integer variable"
+	},
+	"Create Float": {
+		"prefix": "letf",
+		"body": [
+			"let ${1:variableName} = ${2:0.0}",
+			"$3"
+		],
+		"description": "Creates a new float variable"
+	},
+	"Create Array": {
+		"prefix": "letarreglo",
+		"body": [
+			"let ${1:variableName} = [${2:element1}, ${3:element2}, ${4:element3}]",
+			"$5"
+		],
+		"description": "Creates a new array variable"
+	},
+	"Create Object": {
+		"prefix": "letobjeto",
+		"body": [
+			"let ${1:variableName} = {",
+			"    ${2:key1}: '${3:value1}',",
+			"    ${4:key2}: '${5:value2}'",
+			"}",
+			"$6"
+		],
+		"description": "Creates a new object variable"
+	},
+    "console.log": {
+        "prefix": "log",
+        "body": [
+            "console.log('$1');"
+        ],
+        "description": "Log to console"
+    }
+    
+
+}
